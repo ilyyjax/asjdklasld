@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Your Blooper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Make Your Blooper</h1>
+        <div class="avatar-preview" id="avatarPreview">
+            <div class="avatar-head" id="head"></div>
+            <div class="avatar-hair" id="hair"></div>
+            <div class="avatar-eyes">
+                <div class="eye" id="eyeLeft"></div>
+                <div class="eye" id="eyeRight"></div>
+            </div>
+            <div class="avatar-mouth" id="mouth"></div>
+            <div class="avatar-accessory" id="accessory"></div>
+            <div class="avatar-outfit" id="outfit"></div>
+        </div>
+
+        <div class="controls">
+
+            <div class="control-group">
+                <label for="skinColor">Skin Color:</label>
+                <input type="color" id="skinColor" value="#ffd1a4">
+            </div>
+
+            <div class="control-group">
+                <label for="hairSelect">Hair Style:</label>
+                <select id="hairSelect">
+                    <option value="hair1">Short</option>
+                    <option value="hair2">Medium</option>
+                    <option value="hair3">Long</option>
+                    <option value="hair4">Curly</option>
+                    <option value="hair5">Spiky</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label for="hairColor">Hair Color:</label>
+                <input type="color" id="hairColor" value="#ffcc00">
+            </div>
+
+            <div class="control-group">
+                <label for="eyeColor">Eye Color:</label>
+                <input type="color" id="eyeColor" value="#0000ff">
+            </div>
+
+            <div class="control-group">
+                <label for="mouthSelect">Expression:</label>
+                <select id="mouthSelect">
+                    <option value="smile">Smile</option>
+                    <option value="neutral">Neutral</option>
+                    <option value="frown">Frown</option>
+                    <option value="surprised">Surprised</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label for="accessorySelect">Accessory:</label>
+                <select id="accessorySelect">
+                    <option value="none">None</option>
+                    <option value="hat">Hat</option>
+                    <option value="glasses">Glasses</option>
+                    <option value="headband">Headband</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label for="outfitColor">Outfit Color:</label>
+                <input type="color" id="outfitColor" value="#6bc1ff">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
